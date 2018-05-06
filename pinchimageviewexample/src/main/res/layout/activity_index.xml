@@ -20,11 +20,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="超大图浏览"/>
+        <Button
+            android:id="@+id/btn_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="网格"/>
     </LinearLayout>
+
     <Button
         android:id="@+id/view_github"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="view in Github"/>
+        android:text="打开网页"/>
 </RelativeLayout>
